@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Campground Weather Ap p</title>
+</head>
+<body>
+    <header>
+        <h1>Campground Weather App</h1>
+    </header>
+    <div class="form-container">
+        <form id="weatherForm">
+            <label for="campgroundName">Campground Name:</label>
+            <input type="text" id="campgroundName" required>
+            <br>
+            <label for="state">State:</label>
+            <input type="text" id="state">
+            <br>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weatherInfo"></div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdtZPoSVuNO9Hv4GTqWsv1WhUv2zllHDA&libraries=places"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
